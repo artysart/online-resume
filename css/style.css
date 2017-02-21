@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Global Styles*/
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+/*  background: #ffffff;*/
+}
+
+/*Home Page CSS Styles - start
+------------------------------------------*/
+.top_div h1, .mid_div h2, .lower_div {
+	display: block;
+	margin:1em auto ;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+/*Home Page CSS Styles - end*/
+
+
+
+/*On-Line CV Page CSS Styles - start
+------------------------------------------*/
+
+/* Main Content sections */
+
+/* ENTRIES */
+/* ----------------------------------------- */
+
+h1, h1 span, h2 {
+	color:#803a3a;
+}
+
+h3, h4, h5, h6 {
+	color:#ab7979;
+	text-align: right;
+	width:180px;
+	float:left;
+	padding:0;
+	clear:both;
+}
+
+.entry {
+	width:720px;
+	display: block;
+	padding-top:55px;
+	clear: both;
+	margin-left:4px;
+}
+
+h1  {
+	width:250px;
+	font-size:42px;	
+	margin-bottom:3px;
+	clear:both;
+}
+
+h1 span {
+	font-size:21px;
+	display:block;
+	margin-top:-5px;
+}
+
+h2 {
+	width:180px;
+	height: 23px;
+	text-align: right;
+	float:left;
+	padding:0;
+	margin:0;
+	clear:both;
+	font-size:22px;
+	margin-bottom:-12px;
+}
+
+p {
+	width:500px;
+	margin-left:40px;
+	float:right;	
+}
+
+p img {
+	float:right;
+	margin-left:20px;
+	padding-left:10px;
+}
+
+div.content {
+	clear: both;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	display:block;
+	padding-top:32px;
+}
+
+h3 {
+	font-size: 13px;
+}
+
+h4 {
+	font-size: 11px;
+}
+
+h5 {
+	font-size: 10px;
+}
+
+h6 {
+	font-size: 9px;
+}
+
+em {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	color:#777777;
+	font-size:12px;
+	display: block;
+	padding-top:3px;
+}
+
+
+ol {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style: decimal;
+	
+}
+
+ol li {
+	width:500px;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+dl {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	
+}
+
+dt {
+	float:left;
+	display: block;
+	width:500px;
+		color:#ab7979;
+}
+
+dd {
+	float:left;
+	display: block;
+	width:480px;
+	text-indent:20px;
+}
+
+ul.unordered {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	
+}
+
+ul.unordered li {
+	margin:0;
+	padding:0;
+	float:left;
+	display: block;
+	width:500px;
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:0;
+}
+
+ul.info {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none; 
+}
+
+ul.info li {
+	margin:0;
+	padding:0;
+	float:left;
+	display: block;
+	width:500px;
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:12px;
+}
+
+ul.skills {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	margin-top:-6px;
+	list-style-type: none;
+	
+}
+
+ul.skills li {
+	margin:0;
+	padding:0;
+	float:left;
+	width:156px;
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:6px;
+}
+
+ul.works {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none;
+}
+
+ul.works li {
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+ul.works li img {
+	padding:4px;
+	background-color:#fff;
+	width:95px;
+	height:95px;
+	border:1px solid #d5bcbc;
+	margin-right:20px;
+	margin-bottom:16px;
+}
+
+ul.works li img:hover {
+	border:1px solid #803a3a;
+	cursor: pointer;
+}
+
+img.portrait {
+	background-image:url(../images/frame.jpg);
+	background-repeat: no-repeat;
+	width:109px;
+	height:109px;
+	padding-top:20px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:50px;
+	float:left;
+}
+
+
+/* SELF INFORMATION */
+/* ----------------------------------------- */
+
+.self {
+	width:450px;
+	float:left;
+	padding-top:11px;
+	margin-left:38px;
+	margin-bottom:15px;
+}
+
+.self ul {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-left: 0;
+}
+
+.self ul li.ad {
+	background-image:url(../images/icn-ad.gif);
+}
+
+.self ul li.mail {
+	background-image:url(../images/icn-mail.gif);
+}
+
+.self ul li.tel {
+	background-image:url(../images/icn-tel.gif);
+}
+
+.self ul li.web {
+	background-image:url(../images/icn-web.gif);
+}
+
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:26px;
+	background-position: 0 .1em;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+}
+
+
+/* RESPONSIVE CSS */
+/* ----------------------------------------- */
+
+
+@media (max-width: 780px){
+
+/*HEADER*/
+	header {
+		width: 100%;
+		float: none;
+		}
+
+	.entry h2 {
+		text-align: left;
+		margin-bottom: auto;
+	}
+	
+	
+	.entry p {
+		width: 100%;
+		text-align: left;
+	}
+	
+	.content h3 {
+		text-align: left;
+	}
+	.content p {
+		width: 100%;
+		text-align:left;
+	}
+	
+	.content ul {
+		width: 100%;
+		text-align:left;	
+	}
+
+		
+	ul.works {
+		float:left;
+		margin:40px;
+}
+		
+}
+@media (max-width: 650px){
+
+/*HEADER*/
+	
+	
+}
+
+@media (max-width: 520px){
+
+/*WORKS IMAGES*/
+	
+
+}
+
+@media (max-width: 380px){
+
+/*WORKS IMAGES*/
+	
+}

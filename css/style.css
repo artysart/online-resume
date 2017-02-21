@@ -59,7 +59,7 @@ h3, h4, h5, h6 {
 }
 
 .entry {
-	width:720px;
+	max-width:720px;
 	display: block;
 	padding-top:55px;
 	clear: both;
@@ -92,7 +92,7 @@ h2 {
 }
 
 p {
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	float:right;	
 }
@@ -140,21 +140,21 @@ em {
 
 ol {
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	list-style: decimal;
 	
 }
 
 ol li {
-	width:500px;
+	max-width:500px;
 	list-style-type: decimal;
 	list-style-position: inside;
 }
 
 dl {
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	
 }
@@ -162,20 +162,20 @@ dl {
 dt {
 	float:left;
 	display: block;
-	width:500px;
+	max-width:500px;
 		color:#ab7979;
 }
 
 dd {
 	float:left;
 	display: block;
-	width:480px;
+	max-width:480px;
 	text-indent:20px;
 }
 
 ul.unordered {
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	
 }
@@ -185,7 +185,7 @@ ul.unordered li {
 	padding:0;
 	float:left;
 	display: block;
-	width:500px;
+	max-width:500px;
 	background-image:url(../images/bullet.gif);
 	background-repeat: no-repeat;
 	padding-left:10px;
@@ -195,7 +195,7 @@ ul.unordered li {
 
 ul.info {
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	list-style-type: none; 
 }
@@ -205,7 +205,7 @@ ul.info li {
 	padding:0;
 	float:left;
 	display: block;
-	width:500px;
+	max-width:500px;
 	background-image:url(../images/bullet.gif);
 	background-repeat: no-repeat;
 	padding-left:10px;
@@ -217,7 +217,7 @@ ul.skills {
 	margin:0;
 	padding:0;
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	margin-top:-6px;
 	list-style-type: none;
@@ -240,7 +240,7 @@ ul.works {
 	margin:0;
 	padding:0;
 	float:right;
-	width:500px;
+	max-width:500px;
 	margin-left:40px;
 	list-style-type: none;
 }
@@ -284,7 +284,7 @@ img.portrait {
 /* ----------------------------------------- */
 
 .self {
-	width:450px;
+	max-width:450px;
 	float:left;
 	padding-top:11px;
 	margin-left:38px;
@@ -382,6 +382,6 @@ img.portrait {
 
 @media (max-width: 380px){
 
-/*WORKS IMAGES*/
+/* WORKS IMAGES */
 	
 }
